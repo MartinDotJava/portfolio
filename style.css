@@ -312,3 +312,23 @@ footer p {
     scroll-behavior: auto;
   }
 }
+
+
+/* Skip navigation */
+
+.skip-link {
+  position: fixed;
+  top: 0;
+  transform: translateY(-150%);
+  left: 1rem;
+  padding: 0.75rem 1rem;
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 4px;
+  z-index: 10;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
