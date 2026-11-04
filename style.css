@@ -8,3 +8,18 @@ body {
   height: auto;
   border-radius: 50%;
 }
+
+.project-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.project-card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
