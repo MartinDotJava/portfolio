@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Martin Johansson | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,204 +17,153 @@
     </nav>
   </header>
 
+  <div class="page-layout">
+    <main>
+      <h1>Martin Johansson</h1>
 
-    <h1>Martin Johansson</h1>
-
-    <section id="about" aria-labelledby="about-heading">
-    <h2 id="about-heading">Om mig</h2>
-
-    <img
-        src="assets/profile.png"
-        alt="Profilbild på Martin Johansson"
-        width="300"
-        height="300"
-    >
-
-
-    <p>
-    Hej! Jag heter Martin och har studerat systemutveckling
-    med inriktning mot Java. Just nu vidareutbildar jag mig
-    inom blockchainutveckling.
-    </p>
-
-    <p>
-    Jag har erfarenhet av bland annat Java, Python,
-    SQL och webbutveckling. Här samlar jag projekt
-    från mina utbildningar och egna arbeten.
-    </p>
-
-    </section>
-
-
-    <section id="projects" aria-labelledby="projects-heading">
-    <h2 id="projects-heading">Mina projekt</h2>
-
-    <div class="project-list">
-        <article class="project-card">
-        <h3>Java-applikation</h3>
-        <p>
-            Ett projekt inom systemutveckling med Java,
-            med fokus på objektorienterad programmering
-            och applikationsstruktur.
-        </p>
-        <p>Tekniker: Java</p>
-        </article>
-
-        <article class="project-card">
-        <h3>Python och backendutveckling</h3>
-        <p>
-            Arbete med backendutveckling i Python,
-            med fokus på API:er och mikrotjänster.
-        </p>
-        <p>Tekniker: Python, API, Git</p>
-        </article>
-
-        <article class="project-card">
-        <h3>Blockchain – Mystery Box</h3>
-        <p>
-            Ett koncept för handel med Mystery Boxes
-            inom blockchain, framtaget som en del
-            av min utbildning.
-        </p>
-        <p>Tekniker: Blockchain, Web3</p>
-        </article>
-    </div>
-
-        <p>
-        Fler projekt finns på
-        <a href="https://github.com/MartinDotJava">
-            min GitHub-profil
-        </a>.
-        </p>
-        </section>
-
-
-    <section id="contact" aria-labelledby="contact-heading">
-    <h2 id="contact-heading">Kontakta mig</h2>
-
-        <p>
-        Detta är ett demonstrationsformulär
-        för min HTML- och CSS-portfolio.
-        Inga meddelanden skickas.
-        </p>
-
-    <form action="#" method="get">
-        <div class="form-group">
-        <label for="name">Namn</label>
-        <input
-            type="text"
-            id="name"
-            name="name"
-            autocomplete="name"
-            required
+      <section id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">Om mig</h2>
+        <img
+          src="assets/profile.png"
+          alt="Profilbild på Martin Johansson"
+          width="300"
+          height="300"
         >
+        <p>
+          Hej! Jag heter Martin och har studerat systemutveckling
+          med inriktning mot Java. Just nu vidareutbildar jag mig
+          inom blockchainutveckling.
+        </p>
+        <p>
+          Jag har erfarenhet av bland annat Java, Python,
+          SQL och webbutveckling. Här samlar jag projekt
+          från mina utbildningar och egna arbeten.
+        </p>
+      </section>
+
+      <section id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Mina projekt</h2>
+        <div class="project-list">
+          <article class="project-card">
+            <h3>Java-applikation</h3>
+            <p>
+              Ett projekt inom systemutveckling med Java,
+              med fokus på objektorienterad programmering
+              och applikationsstruktur.
+            </p>
+            <p>Tekniker: Java</p>
+          </article>
+
+          <article class="project-card">
+            <h3>Python och backendutveckling</h3>
+            <p>
+              Arbete med backendutveckling i Python,
+              med fokus på API:er och mikrotjänster.
+            </p>
+            <p>Tekniker: Python, API, Git</p>
+          </article>
+
+          <article class="project-card">
+            <h3>Blockchain – Mystery Box</h3>
+            <p>
+              Ett koncept för handel med Mystery Boxes
+              inom blockchain, framtaget som en del
+              av min utbildning.
+            </p>
+            <p>Tekniker: Blockchain, Web3</p>
+          </article>
         </div>
+        <p class="projects-link">
+          Fler projekt finns på
+          <a href="https://github.com/MartinDotJava">min GitHub-profil</a>.
+        </p>
+      </section>
 
-        <div class="form-group">
-        <label for="email">E-post</label>
-        <input
-            type="email"
-            id="email"
-            name="email"
-            autocomplete="email"
-            required
-        >
-        </div>
+      <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Kontakta mig</h2>
+        <p>
+          Detta är ett demonstrationsformulär för min HTML- och CSS-portfolio.
+          Inga meddelanden skickas.
+        </p>
+        <form action="#" method="get">
+          <div class="form-group">
+            <label for="name">Namn</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
 
-        <div class="form-group">
-        <label for="website">Webbplats</label>
-        <input
-            type="url"
-            id="website"
-            name="website"
-            placeholder="https://example.com"
-        >
-        </div>
+          <div class="form-group">
+            <label for="email">E-post</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
 
-        <div class="form-group">
-        <label for="phone">Telefonnummer</label>
-        <input
-            type="tel"
-            id="phone"
-            name="phone"
-            autocomplete="tel"
-        >
-        </div>
+          <div class="form-group">
+            <label for="website">Webbplats</label>
+            <input type="url" id="website" name="website" placeholder="https://example.com">
+          </div>
 
-        <div class="form-group">
-        <label for="subject">Ärende</label>
-        <select id="subject" name="subject" required>
-            <option value="">Välj ett ärende</option>
-            <option value="job">Jobbförfrågan</option>
-            <option value="project">Projektsamarbete</option>
-            <option value="other">Övrigt</option>
-        </select>
-        </div>
+          <div class="form-group">
+            <label for="phone">Telefonnummer</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel">
+          </div>
 
-        <div class="form-group">
-        <label for="message">Meddelande</label>
-        <textarea
-            id="message"
-            name="message"
-            rows="5"
-            required
-        ></textarea>
-        </div>
+          <div class="form-group">
+            <label for="subject">Ärende</label>
+            <select id="subject" name="subject" required>
+              <option value="">Välj ett ärende</option>
+              <option value="job">Jobbförfrågan</option>
+              <option value="project">Projektsamarbete</option>
+              <option value="other">Övrigt</option>
+            </select>
+          </div>
 
-        <div class="form-group checkbox-group">
-        <input
-            type="checkbox"
-            id="contact-consent"
-            name="contact-consent"
-            required
-        >
-        <label for="contact-consent">
-            Jag godkänner att bli kontaktad.
-        </label>
-        </div>
+          <div class="form-group">
+            <label for="message">Meddelande</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
 
-        <button type="submit">Skicka meddelande</button>
-    </form>
-    </section>
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="contact-consent" name="contact-consent" required>
+            <label for="contact-consent">Jag godkänner att bli kontaktad.</label>
+          </div>
 
-  </main>
-
+          <button type="submit">Skicka meddelande</button>
+        </form>
+      </section>
+    </main>
 
     <aside aria-labelledby="sidebar-heading">
-    <h2 id="sidebar-heading">Kort om mig</h2>
+      <h2 id="sidebar-heading">Kort om mig</h2>
 
-    <section aria-labelledby="education-heading">
+      <section aria-labelledby="education-heading">
         <h3 id="education-heading">Utbildning</h3>
         <ul>
-        <li>Systemutveckling – Java</li>
-        <li>Blockchainutveckling – pågående</li>
+          <li>Systemutveckling – Java</li>
+          <li>Blockchainutveckling – pågående</li>
         </ul>
-    </section>
+      </section>
 
-    <section aria-labelledby="skills-heading">
+      <section aria-labelledby="skills-heading">
         <h3 id="skills-heading">Tekniker</h3>
         <ul>
-        <li>Java och Spring Boot</li>
-        <li>Python</li>
-        <li>HTML, CSS och JavaScript</li>
-        <li>SQL</li>
-        <li>Git och GitHub</li>
-        <li>Docker</li>
+          <li>Java och Spring Boot</li>
+          <li>Python</li>
+          <li>HTML, CSS och JavaScript</li>
+          <li>SQL</li>
+          <li>Git och GitHub</li>
+          <li>Docker</li>
         </ul>
-    </section>
+      </section>
 
-    <section aria-labelledby="details-heading">
+      <section aria-labelledby="details-heading">
         <h3 id="details-heading">Kontaktuppgifter</h3>
         <p>Plats: Stockholm, Sverige</p>
         <p>
-        GitHub:
-        <a href="https://github.com/MartinDotJava">
-            Min profil
-        </a>
+          GitHub:
+          <a href="https://github.com/MartinDotJava">Min profil</a>
         </p>
-    </section>
+      </section>
     </aside>
-
+  </div>
 
   <footer>
     <p>Portfolio</p>
