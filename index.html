@@ -88,9 +88,95 @@
         </p>
         </section>
 
+
     <section id="contact" aria-labelledby="contact-heading">
-      <h2 id="contact-heading">Kontakt</h2>
+    <h2 id="contact-heading">Kontakta mig</h2>
+
+        <p>
+        Detta är ett demonstrationsformulär
+        för min HTML- och CSS-portfolio.
+        Inga meddelanden skickas.
+        </p>
+
+    <form action="#" method="get">
+        <div class="form-group">
+        <label for="name">Namn</label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="name"
+            required
+        >
+        </div>
+
+        <div class="form-group">
+        <label for="email">E-post</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            required
+        >
+        </div>
+
+        <div class="form-group">
+        <label for="website">Webbplats</label>
+        <input
+            type="url"
+            id="website"
+            name="website"
+            placeholder="https://example.com"
+        >
+        </div>
+
+        <div class="form-group">
+        <label for="phone">Telefonnummer</label>
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            autocomplete="tel"
+        >
+        </div>
+
+        <div class="form-group">
+        <label for="subject">Ärende</label>
+        <select id="subject" name="subject" required>
+            <option value="">Välj ett ärende</option>
+            <option value="job">Jobbförfrågan</option>
+            <option value="project">Projektsamarbete</option>
+            <option value="other">Övrigt</option>
+        </select>
+        </div>
+
+        <div class="form-group">
+        <label for="message">Meddelande</label>
+        <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+        ></textarea>
+        </div>
+
+        <div class="form-group checkbox-group">
+        <input
+            type="checkbox"
+            id="contact-consent"
+            name="contact-consent"
+            required
+        >
+        <label for="contact-consent">
+            Jag godkänner att bli kontaktad.
+        </label>
+        </div>
+
+        <button type="submit">Skicka meddelande</button>
+    </form>
     </section>
+
   </main>
 
 
@@ -122,7 +208,7 @@
         <p>Plats: Stockholm, Sverige</p>
         <p>
         GitHub:
-        <a href="https://github.com/DITT-ANVANDARNAMN">
+        <a href="https://github.com/MartinDotJava">
             Min profil
         </a>
         </p>
