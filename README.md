@@ -35,18 +35,38 @@ inga meddelanden.
 
 Projektet kräver inga externa bibliotek eller installationer.
 
-## Tillgänglighet
+## Tillgänglighetsgranskning
 
-Webbplatsen är byggd med fokus på semantisk HTML,
-korrekt rubrikstruktur och responsiv design.
+Webbplatsen har granskats med följande verktyg:
 
-Följande verktyg kommer att användas för granskning:
+### Chrome Lighthouse
 
-- Chrome Lighthouse
-- W3C HTML Validator
-- Firefox Accessibility Tools
+Test utfört i mobilläge.
 
-Resultat och skärmbilder läggs till efter granskningen.
+- Performance: 98
+- Accessibility: 100
+- Best Practices: 96
+- SEO: 91
+
+![Lighthouse-resultat](assets/audit/lighthouse.png)
+
+### W3C HTML Validator
+
+HTML-dokumentet validerades utan fel eller varningar.
+
+- Errors: 0
+- Warnings: 0
+
+![W3C-validering](assets/audit/w3c.png)
+
+### Firefox Accessibility Tools
+
+Kontroll genomförd med Firefox Accessibility Tools.
+Inga problem visades i verktygets resultatpanel.
+Panelen var dock tom, så resultatet kunde inte
+bekräftas som en fullständig granskning.
+
+![Firefox Accessibility Tools](assets/audit/firefox.png)
 
 ## Utvecklare
 
